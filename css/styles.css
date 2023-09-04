@@ -7,20 +7,61 @@
   background-color: #0000003e;
   opacity: 1;
 }
+
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
 }
+
 .no-scroll {
   overflow: hidden;
 }
+
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   min-width: 400px;
   min-height: 300px;
-  padding: 15px;
+  padding: 25px;
   background-color: skyblue;
   transform: translate(-50%, -50%);
+}
+
+/*Form*/
+.form-lable {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+}
+textarea{
+  resize: vertical;
+}
+button{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px ;
+  border: none;
+  border-radius: 5px;
+
+}
+button:hover{
+  background-color: #0056b3;
+
+}
+.button-close{
+
+position: absolute;
+top: 10px;
+right: 10px;
 }
